@@ -2,7 +2,6 @@ from tethys_sdk.routing import controller
 from tethys_sdk.gizmos import Button
 from .app import App
 
-
 @controller
 def home(request):
     """
@@ -14,9 +13,9 @@ def home(request):
         icon='save',
         style='success',
         attributes={
-            'data-bs-toggle': 'tooltip',
-            'data-bs-placement': 'top',
-            'title': 'Save'
+            'data-bs-toggle':'tooltip',
+            'data-bs-placement':'top',
+            'title':'Save'
         }
     )
 
@@ -26,9 +25,9 @@ def home(request):
         icon='pen',
         style='warning',
         attributes={
-            'data-bs-toggle': 'tooltip',
-            'data-bs-placement': 'top',
-            'title': 'Edit'
+            'data-bs-toggle':'tooltip',
+            'data-bs-placement':'top',
+            'title':'Edit'
         }
     )
 
@@ -38,9 +37,9 @@ def home(request):
         icon='trash',
         style='danger',
         attributes={
-            'data-bs-toggle': 'tooltip',
-            'data-bs-placement': 'top',
-            'title': 'Remove'
+            'data-bs-toggle':'tooltip',
+            'data-bs-placement':'top',
+            'title':'Remove'
         }
     )
 
@@ -48,9 +47,9 @@ def home(request):
         display_text='Previous',
         name='previous-button',
         attributes={
-            'data-bs-toggle': 'tooltip',
-            'data-bs-placement': 'top',
-            'title': 'Previous'
+            'data-bs-toggle':'tooltip',
+            'data-bs-placement':'top',
+            'title':'Previous'
         }
     )
 
@@ -58,9 +57,9 @@ def home(request):
         display_text='Next',
         name='next-button',
         attributes={
-            'data-bs-toggle': 'tooltip',
-            'data-bs-placement': 'top',
-            'title': 'Next'
+            'data-bs-toggle':'tooltip',
+            'data-bs-placement':'top',
+            'title':'Next'
         }
     )
 

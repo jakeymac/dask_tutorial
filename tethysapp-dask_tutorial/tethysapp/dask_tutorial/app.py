@@ -6,13 +6,14 @@ class App(TethysAppBase):
     """
     Tethys app class for Dask Tutorial.
     """
+
     name = 'Dask Tutorial'
     description = ''
     package = 'dask_tutorial'  # WARNING: Do not change this value
     index = 'home'
     icon = f'{package}/images/icon.gif'
     root_url = 'dask-tutorial'
-    color = '#27ae60'
+    color = '#2980b9'
     tags = ''
     enable_feedback = False
     feedback_emails = []
