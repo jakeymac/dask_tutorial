@@ -11,9 +11,9 @@ class App(TethysAppBase):
     description = ''
     package = 'dask_tutorial'  # WARNING: Do not change this value
     index = 'home'
-    icon = f'{package}/images/dask-logo.png'
+    icon = f'{package}/images/icon.gif'
     root_url = 'dask-tutorial'
-    color = '#2980b9'
+    color = '#c23616'
     tags = ''
     enable_feedback = False
     feedback_emails = []
