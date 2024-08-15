@@ -169,7 +169,7 @@ def run_job(request, job_type):
         try:
             client = scheduler.client
         except DaskJobException:
-            return redirect(reverse('dask_tutorial:error_message'))
+            return redirect(App.reverse('error_message'))
 
         # Create future job instance
         future = distributed_job(client)
